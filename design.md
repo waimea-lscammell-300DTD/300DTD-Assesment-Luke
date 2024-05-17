@@ -39,13 +39,13 @@ Replace this text with an explanation of why the implication is relevant to this
 
 Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
 
-### Usability
+### End-User
 
-Replace this text with a clear explanation of what the implication means.
+My end Users will be the companies owner Jess Smythe and the customers
 
-Replace this text with an explanation of why the implication is relevant to this particular project.
+If the website isnt made with the customers and the owner in mind then it will be useless 
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
+Making sure the owner is happy with how the website works and looks and also testing it with other people to see the customer experience and change the website from the feedback given.
 
 ### Future Proofing
 
