@@ -33,17 +33,17 @@ The customers wanting the Crochet: The website needs to be easy to use and look 
 
 ### Functionality
 
-Replace this text with a clear explanation of what the implication means.
+Making the buttons and website work and function like they are supposed to
 
-Replace this text with an explanation of why the implication is relevant to this particular project.
+if the any of the buttons don't work then the website wont be usable or people wont be able to buy stuff which would be bad for Jess.
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
+Testing everything multiple times and having people try to break the website to find bugs to make my website bug free.
 
 ### End-User
 
 My end Users will be the companies owner Jess Smythe and the customers
 
-If the website isnt made with the customers and the owner in mind then it will be useless 
+If the website isn't made with the customers and the owner in mind then it will be useless 
 
 Making sure the owner is happy with how the website works and looks and also testing it with other people to see the customer experience and change the website from the feedback given.
 
@@ -60,21 +60,21 @@ I will need to make the features that let Jess(admin) to change the price and ad
 
 ## Relevant User Experience (UX) Principles
 
-### UX PRINCIPLE NAME HERE
+### Give the user control 
 
-Replace this text with a clear explanation of what the UX design principle means.
-
-Replace this text with an explanation of why the principle is relevant to this particular project.
-
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this principle.
-
-### UX PRINCIPLE NAME HERE
-
-Replace this text with a clear explanation of what the UX design principle means.
+The users will have a chance to have a choice to change their mind on a function 
 
 Replace this text with an explanation of why the principle is relevant to this particular project.
 
 Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this principle.
+
+### Consistency 
+
+Keeping the website consistent with the features and layout of the website with other known websites giving the same purpose
+
+If a website is a store website then if we use a different layout or features people will get confused when using the website which will make it hard to use
+
+Researching different store websites and using features and layouts in my website design
 
 ### UX PRINCIPLE NAME HERE
 
