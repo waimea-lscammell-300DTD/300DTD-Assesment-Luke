@@ -10,9 +10,6 @@ Assessment Standards: **91902** and **91903**
 -------------------------------------------------
 
 ## System Requirements
-- Easy to use and navigate
-- Looks good 
-- The user knows when they have brought something 
 
 ### Identified Need or Problem
 Popularity/exposure, My friend makes crochet but doesn't have a website that she could use to get orders for her crochet products. 
@@ -21,8 +18,16 @@ Popularity/exposure, My friend makes crochet but doesn't have a website that she
 
 The customers wanting the Crochet: The website needs to be easy to use and look good, they need to be able to see the products. 
 
+Jess (admin): can easily add products and move around the website easily, she can monitor the sales easily and sort the prices. 
+
+- Get images and prices for the different products she wants to sell.  
+- Ask her what she wants her website to look like, getting colours. 
+
 ### Proposed Solution
 
+- Easy to use and navigate
+- Looks good 
+- The user knows when they have brought something 
 - You can order different Crochet items. 
 - You can have an account that saves what you brought. 
 - The admin can see stock and add new products 
