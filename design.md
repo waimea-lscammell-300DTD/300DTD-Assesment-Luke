@@ -18,10 +18,12 @@ Popularity/exposure, My friend makes crochet but doesn't have a website that she
 
 The customers wanting the Crochet: The website needs to be easy to use and look good, they need to be able to see the products. 
 
+- Ask some family members or friends to try out the website and give feedback for further 
+
 Jess (admin): can easily add products and move around the website easily, she can monitor the sales easily and sort the prices. 
 
 - Get images and prices for the different products she wants to sell.  
-- Ask her what she wants her website to look like, getting colours. 
+- Ask her what she wants her website to look like, getting colors and layouts. 
 
 ### Proposed Solution
 
