@@ -109,12 +109,16 @@ Place a image here that shows the *final design* of your database: tables, field
 
 ### User Interface Design
 
-Place images here that show your *final design* of your UI: layout, colors, etc.
+![Alt text](image.png)
 
 
 -------------------------------------------------
 
 ## Completed System
+
+
+
+
 
 ### Database Structure
 
