@@ -25,7 +25,7 @@ I chose to take the payment part out of the design because it would be too hard 
 ### 08/06/2024
 
 Meeting my end user Jess at Mapua wharf and showing her my figma design
-![alt text](images/Picture3.png) ![alt text](images/Picture4.png) ![alt text](images/Picture5.png) [alt text](development.md)
+![alt text](images/Picture3.png) ![alt text](images/Picture4.png) ![alt text](images/Picture5.png)![alt text](images/Picture6.png)
 
 Here is the images I showed Jess(My End User) and I asked her some questions about how I can improve the website and some features I could add in the final design
 
@@ -34,6 +34,8 @@ Here is the images I showed Jess(My End User) and I asked her some questions abo
 > A1: I would like to have pastel colors, I want it to be colorful.
 
 > Q2: Should I have a option for different color options for the products so if a customer wants a different color seal for example they could choose a color so you know which color wool to use
+![alt text](<images/Screenshot 2024-06-11 205552.png>) 
+![alt text](<images/Screenshot 2024-06-11 205602.png>) 
     
 > A2: Yes, that would be a great idea.
 
@@ -43,7 +45,7 @@ Here is the images I showed Jess(My End User) and I asked her some questions abo
     
 > Q4: Is there anything you would like to add to the design?
     
-> A4: I was thinking about having a picture of my stall from the easter fair on the top of the home page.
+> A4: I was thinking about having a picture of my stall from the easter fair on the top of the home page.![alt text](images/IMG-20240608-WA0000.jpg)
 
  I Asked Jess these questions and she gave me some good feedback which I will implement into the design. I also explained that I will have to tweak the website a bit because I cant do the payment feature. 
 
@@ -53,15 +55,19 @@ Filling out the development file with the responses i got from my end user
 
 I typed in the responses i got from Jess(My End User) and the images of the wireframe I made in figma.
 
-### DATE HERE
+### 11/06/2024
 
-Replace this test with what you are working on
-
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+Getting more feedback from my end user Jess with the color pallet
 
 > Replace this text with any user feedback / comments
 
-Replace this text with notes describing how you acted upon the user feedback: made changes to design, etc.
+>![alt text](<images/Screenshot 2024-06-11 205211.png>)I first asked if Jess's chats would allow to have her chats snipped for end user feedback then asked showed her some color pallets I found online![alt text](<images/Screenshot 2024-06-11 204614.png>)
+![text](<images/Color Hunt Palette fff3c7fec7b4fc819ef7418f.png>)![text](<images/Color Hunt Palette feffd2ffeea9ffbf78ff7d29.png>) 
+![text](<images/Color Hunt Palette d8efd395d2b355ad9bf1f8e8.png>) 
+![text](<images/Color Hunt Palette 03aed268d2e8fdde55feefad.png>)
+
+>She looked through them and then showed me some colors that she would like for her design 
+![alt text](<images/Screenshot 2024-06-11 204458.png>)
 
 ### DATE HERE
 

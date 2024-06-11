@@ -102,10 +102,10 @@ Asking my end users how different colors feel with the product and if it works w
 -------------------------------------------------
 
 ## Final System Design
-
+![alt text](images/Picture3.png)![alt text](images/Picture4.png)![alt text](images/Picture5.png)![alt text](images/Picture6.png)
 ### Database Structure
 
-Place a image here that shows the *final design* of your database: tables, fields and relationships.
+![alt text](image-1.png)
 
 ### User Interface Design
 
