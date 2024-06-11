@@ -81,7 +81,7 @@ The users will have a chance to have a choice to change their mind on a function
 
 The customer can have a choice for adding more products or deleting products from their cart and the website should have buttons that show the user that they can make that choice
 
-Putting in exit buttons, delete item buttons and add item buttons to allow the user to control what they have in their cart
+Putting in exit buttons, delete item buttons and add item buttons to allow the user to control what they have in their cart. They will also be able to decide what color their products will be.
 
 ### Consistency 
 
