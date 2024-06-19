@@ -22,9 +22,11 @@ $router = new Router(['debug' => true]);
 
 $router->route(GET, PAGE, '/',      'pages/home.php');
 $router->route(GET, PAGE, '/about', 'pages/about.php');
-$router->route(GET, PAGE, '/words', 'pages/words.php');
-$router->route(GET, PAGE, '/organsadd', 'pages/organs_add.php');
-$router->route(GET, PAGE, '/organslist', 'pages/organs_list.php');
+$router->route(GET, PAGE, '/login', 'pages/form-login.php');
+$router->route(GET, PAGE, '/process-login', 'components/process-login.php');
+$router->route(GET, PAGE, '/process-logout', 'components/process-logout.php');
+$router->route(GET, PAGE, '/signup', 'pages/form-signup.php');
+$router->route(GET, PAGE, '/process-signup', 'components/process-signup.php');
 
 
 //-------------------------------------------------------------

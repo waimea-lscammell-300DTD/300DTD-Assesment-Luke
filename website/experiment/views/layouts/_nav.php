@@ -6,7 +6,8 @@
 
         <li><a href="/">Home</a>
         <li><a href="/about">About</a>
-        <li ><a href="/words">Words</a>
+        <li ><a href="/login">Login</a>
+        <li ><a href="/signup">Signup</a>
         
 
     </menu>
