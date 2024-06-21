@@ -2,9 +2,9 @@
 
     <article>
 
-        <h1>Simple PHP Routing System with HTMX Support</h1>
+        <h1>Stuff about Jess</h1>
 
-        <p>Find this project on <a href="https://github.com/waimea-dt/php-routing">GitHub</a><p>
+        <p>more information about Jess<p>
 
     </article>
     
