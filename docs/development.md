@@ -69,9 +69,9 @@ Getting more feedback from my end user Jess with the color pallet
 >She looked through them and then showed me some colors that she would like for her design 
 ![alt text](<images/Screenshot 2024-06-11 204458.png>)
 
-### DATE HERE
+### 25/06/2024
 
-Replace this test with what you are working on
+asking my end user Jess if the users could be able to give thier address when they are ordering
 
 Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
 

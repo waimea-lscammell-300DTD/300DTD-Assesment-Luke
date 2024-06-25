@@ -35,6 +35,9 @@ body {
     text-decoration: none;
     color: inherit;
 }
+h1 {
+    text-align: center;
+}
 
 
 /* FOOTER ---------------------------------------- */
@@ -69,6 +72,7 @@ body {
 main {
     flex: 1;
     max-width: 60rem;
+    align-items: center;
 }
 
 
@@ -83,5 +87,8 @@ section {
 article {
     border: 1px solid var(--border-color);
     min-height: 6rem;
+    display: flex;
+    flex-direction: row;
+    align-items:left;
 }
 

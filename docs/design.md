@@ -105,11 +105,11 @@ Asking my end users how different colors feel with the product and if it works w
 ![alt text](images/Picture3.png)![alt text](images/Picture4.png)![alt text](images/Picture5.png)![alt text](images/Picture6.png)
 ### Database Structure
 
-![alt text](image-1.png)
+![Alt text](<Screenshot 2024-06-25 115220-1.png>)
 
 ### User Interface Design
 
-![Alt text](image.png)
+![Alt text](<Screenshot 2024-06-25 115220.png>)
 
 
 -------------------------------------------------

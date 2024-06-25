@@ -2,9 +2,9 @@
 
 <header id="main-header">
     
-    <a href="/"><?= SITE_NAME ?></a>
-
-    <?php require '_nav.php'; ?>
+    <a href="index.php"><?= SITE_NAME ?></a>
+    
+    <?php require 'nav.php'; ?>
 
 </header>
 

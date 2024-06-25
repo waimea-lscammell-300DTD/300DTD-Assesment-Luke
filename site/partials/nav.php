@@ -4,9 +4,8 @@
 
     <menu hx-boost="true">
 
-        <li><a href="/">Home</a>
-        <li><a href="/about">About</a>
-        
+        <li><a href="index.php">Home</a>
+        <li><a href="about.php">About</a>
 
     </menu>
 
@@ -14,4 +13,4 @@
 
 
 <!-- Update the nav links -->
-<script>con figureNav();</script>
+<script>configureNav();</script>

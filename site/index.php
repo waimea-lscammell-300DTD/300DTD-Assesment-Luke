@@ -1,32 +1,23 @@
-<?php
 
-//-------------------------------------------------------------
-// Libraries
-require_once 'lib/debug.php';
-require_once 'lib/router.php';
+<?php require_once '_config.php'; ?>
 
+<?php require 'partials/top.php'; ?>
 
-//-------------------------------------------------------------
-// Site Configuration
-const SITE_NAME  = 'PHP Routing with HTMX';
-const SITE_OWNER = 'Waimea College';
+    <?php require 'partials/header.php'; ?>
 
+    <main>
 
-//-------------------------------------------------------------
-// Initialise the router
-$router = new Router(['debug' => true]);
+        <h1>Jess's Crochet</h1>
+        <img src="images/stand.jpg">
 
+        <article>
+        <img src="images/seal.jpg">
+        <img src="images/kuromi.jpg">
+        <img src="images/bunny.jpg">
+        <img src="images/strawberry-keychain.jpg">
+        <img src="images/seal.jpg"></article>
+    </main>
 
-//-------------------------------------------------------------
-// Define routes
+    <?php require 'partials/footer.php'; ?>
 
-$router->route(GET, PAGE, '/',      'pages/home.php');
-$router->route(GET, PAGE, '/about', 'pages/about.php');
-
-
-
-//-------------------------------------------------------------
-// Generate the required view
-$router->view();
-
-?>
+<?php require 'partials/bottom.php'; ?>
