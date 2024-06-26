@@ -110,7 +110,7 @@ Asking my end users how different colors feel with the product and if it works w
 ### User Interface Design
 
 ![Alt text](<Screenshot 2024-06-25 115220.png>)
-
+![Alt text](<images/Screenshot 2024-06-27 105603.png>)
 
 -------------------------------------------------
 

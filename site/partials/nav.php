@@ -6,11 +6,9 @@
 
         <li><a href="index.php">Home</a>
         <li><a href="about.php">About</a>
+        <li><a href="form-login.php">Login</a>
+        <li><a href="form-signup.php">Sign Up</a>
 
     </menu>
 
 </nav>
-
-
-<!-- Update the nav links -->
-<script>configureNav();</script>
