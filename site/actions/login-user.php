@@ -1,53 +1,42 @@
-<!-- Handle the login data from the form, e.g. check against database -->
-
 <?php
 
-    require_once '../_config.php';
-    
-    // Get the data values from the form
-    $user = $_POST['username'] ?? '';
-    $pass = $_POST['password'] ?? '';
+require_once '_session.php';
+require_once '_functions.php';
 
-    /*************************************************************
-     * In reality, you would query the database to check the 
-     * username and password against the user table.
-     * 
-     * $db = connectToDB();
-     * 
-     * // Try to find a user account with the given username
-     * $query = 'SELECT * FROM users WHERE username = ?';
-     * $stmt = $db->prepare($query);
-     * $stmt->execute([$user]);
-     * $userData = $stmt->fetch();
-     * 
-     * // Did we actually get a user account?
-     * if ($userData) {
-     *     // Yes, we have an account, so check password
-     *     if (password_verify($pass, $userData['hash'])) {
-     *         // We got here, so user and password both ok
-     *         $_SESSION['user']['loggedIn'] = true;
-     *         // Save user info for later use
-     *         $_SESSION['user']['forename'] = $userData['forename'];
-     *         $_SESSION['user']['surname']  = $userData['surname'];
-     *         // Head over to the home page
-     *         header('HX-Redirect: index.php');
-     *     }
-     * }
-     * 
-     * if (!$_SESSION['user']['loggedIn']) {
-     *     echo '<h2>Account or password not recognised</h2>';
-     * }
-     * 
-     ************************************************************/
+consoleLog($_POST, 'Form Data');
 
-    if ($user == 'jimmy' && $pass == 'jimmy') {
-        $_SESSION['user']['name'] = 'Jimmy User';
-        $_SESSION['user']['loggedIn'] = true;
+// Get the data values from the form
+$user = $_POST['user'];
+$pass = $_POST['pass'];
 
-        header('HX-Redirect: index.php');
+$db = connectToDB();
+// Try to find a user account with the given username
+$query = 'SELECT * FROM users WHERE username = ?';
+$stmt = $db->prepare($query);
+$stmt->execute([$user]);
+$userData = $stmt->fetch();
+
+consoleLog($userData);
+
+// Did we actually get a user account?
+if ($userData){
+ // Yes, we have a account, so check password
+if(password_verify($pass,$userData['hash'])){
+    // We got here, so user and password both ok
+    $_SESSION['user']['loggedIn'] = true;
+    // Save user info for later use
+    $_SESSION['user']['forename'] = $userData['forename'];
+    $_SESSION['user']['surname'] = $userData['surname'];
+    // Head back to the home page 
+    header('location: index.php');
     }
-    else {
-        echo '<h2>Account or password not recognised</h2>';
+    else{
+        echo'<h2>Incorrect password!</h2>';
     }
+}
+else{
+    echo '<h2>User account does not exist!</h2>';
+}
 
+echo '<p><a href="index.php">Home</a>'; 
 ?>
