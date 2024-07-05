@@ -14,7 +14,7 @@
 
             <p>User: <strong>jimmy</strong>,  Pass: <strong>jimmy</strong></p>
 
-            <form method="POST" action="actions/process-signup.php">
+            <form method="POST" action="process-signup.php">
 
             <label>Forename</label>
             <input name="forename" type="text" required>

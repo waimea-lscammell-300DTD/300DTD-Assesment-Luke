@@ -1,4 +1,9 @@
 <!-- Head section content -->
+<?php
+    require_once '_session.php';
+    $loggedIn = $_SESSION['user']['loggedIn'] ?? false;
+?>
+
 
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
@@ -27,5 +32,6 @@
     </head>
 
     <body>
+
 
         

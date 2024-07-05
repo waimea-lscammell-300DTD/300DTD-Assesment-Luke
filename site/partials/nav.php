@@ -6,8 +6,14 @@
 
         <li><a href="index.php">Home</a>
         <li><a href="about.php">About</a>
-        <li><a href="form-login.php">Login</a>
-        <li><a href="form-signup.php">Sign Up</a>
+
+        <?php if ($loggedIn): ?>
+            <li><a href="logout-user.php">Logout</a>
+        <?php else: ?>
+            <li><a href="form-login.php">Login</a>
+            <li><a href="form-signup.php">Sign Up</a>
+        <?php endif ?>
+            
 
     </menu>
 
