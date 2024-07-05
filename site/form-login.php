@@ -13,7 +13,7 @@
 
             <p>User: <strong>jimmy</strong>,  Pass: <strong>jimmy</strong></p>
 
-            <form hx-post="actions/login-user.php" hx-swap="outerHTML">
+            <form hx-post="login-user.php">
 
                 <label>Username</label>
                 <input name="username" type="text" required>
