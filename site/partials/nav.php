@@ -7,12 +7,14 @@ require_once '_session.php';
     <menu hx-boost="true">
 
         <li><a href="index.php">Home</a>
+<<<<<<< Updated upstream
 <<<<<<< HEAD
         <li><a href="about.php">About</a></li>
+=======
+        <li><a href="about.php">About</a>
+>>>>>>> Stashed changes
 
-        <?php if ($loggedIn): ?>
-            <?php $name = $_SESSION['user']['forename'] . ' ' . $_SESSION['user']['surname']; ?>
-            <?php echo '<h1>Welcome, ' . $user . '</h1>'; ?>
+            <?php if ($loggedIn): ?>
             <li><a href="logout-user.php">Logout</a>
             <?php else: ?>
             <li><a href="form-login.php">Login</a>

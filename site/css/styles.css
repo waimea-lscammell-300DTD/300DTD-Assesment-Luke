@@ -1,8 +1,8 @@
 :root {
-    --font-size:         1rem;
+    --font-size: 1rem;
 
-    --border-color:      var(--pico-muted-border-color);
-    --accent-color:      var(--pico-color-pumpkin);
+    --border-color: var(--pico-muted-border-color);
+    --accent-color: var(--pico-color-pumpkin);
 
     --link-active-color: var(--accent-color);
 }
@@ -25,17 +25,20 @@ body {
     margin-bottom: 2rem;
 }
 
-#main-header > * {
+#main-header>* {
     margin: 0;
 }
 
-#main-header > a {
+#main-header>a {
     font-size: 1.2rem;
     font-weight: bold;
     text-decoration: none;
     color: inherit;
 }
-h1,h2,h3 {
+
+h1,
+h2,
+h3 {
     text-align: center;
 }
 
@@ -88,5 +91,3 @@ article {
     border: 1px solid var(--border-color);
     max-width: 20rem;
 }
-
-

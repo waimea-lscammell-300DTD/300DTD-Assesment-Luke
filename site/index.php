@@ -38,7 +38,7 @@
         echo '<h3>' . ' $' . $product['price'] . ' Each' . '</h3>';
 
         echo '</article>';
-    }
+    } 
 
     echo '</section>';
     ?>
