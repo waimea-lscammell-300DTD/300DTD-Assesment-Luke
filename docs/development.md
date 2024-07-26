@@ -71,20 +71,29 @@ Getting more feedback from my end user Jess with the color pallet
 
 ### 25/06/2024
 
-asking my end user Jess if the users could be able to give thier address when they are ordering
+Asking my end user Jess if the users could be able to give their address when they are ordering
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+I asked my end user if the website should get the users address when they have pressed brought on the car
 
-> Replace this text with any user feedback / comments
+>My end user said Yes that would be a good idea
 
-Replace this text with notes describing how you acted upon the user feedback: made changes to design, etc.
 
-### DATE HERE
 
-Replace this test with what you are working on
+### 11/07/2024
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+Implementing the login and Sign up feature
+# Login
+I set up the login and sign up feature
 
-> Replace this text with any user feedback / comments
+![Alt text](<images/Screenshot 2024-07-25 100913.png>)
+![Alt text](<images/Screenshot 2024-07-25 101019.png>)
 
-Replace this text with notes describing how you acted upon the user feedback: made changes to design, etc.
+After you click Login the Nav will turn into the screenshot below
+![Alt text](<images/Screenshot 2024-07-25 101035.png>)
+
+## Sign Up
+![Alt text](<images/Screenshot 2024-07-25 101436.png>)
+When you fill in the Sign up boxes it will bring you to a page which confirms if the account was created or not and will send the data to the database
+![Alt text](<images/Screenshot 2024-07-25 101723.png>)
+
+### 11/07/2024
