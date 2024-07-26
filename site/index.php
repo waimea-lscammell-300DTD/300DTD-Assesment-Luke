@@ -36,6 +36,7 @@
 
         echo '<img src="image.php?id=' . $product['id'] . '">';
         echo '<h3>' . ' $' . $product['price'] . ' Each' . '</h3>';
+        echo '<button> Buy </button>';
 
         echo '</article>';
     } 
