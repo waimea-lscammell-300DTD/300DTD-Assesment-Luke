@@ -3,6 +3,14 @@
 <header id="main-header">
     
     <a href="index.php"><?= SITE_NAME ?></a>
+
+    <?php
+
+    if ($loggedIn) {
+        echo '<p id="username">Welcome, ' . $_SESSION['user']['forename'] . ' ' . $_SESSION['user']['surname'] . '</p>';
+    }
+
+    ?>
     
     <?php require 'nav.php'; ?>
 

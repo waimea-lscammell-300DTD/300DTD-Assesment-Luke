@@ -29,6 +29,7 @@ if(password_verify($pass,$userData['hash'])){
     $_SESSION['user']['forename'] = $userData['forename'];
     $_SESSION['user']['surname'] = $userData['surname'];
     $_SESSION['user']['id'] = $userData['id'];
+
     
     // Head back to the home page 
     header('hx-redirect:index.php'); 

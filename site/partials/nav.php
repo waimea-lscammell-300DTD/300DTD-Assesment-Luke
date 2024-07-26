@@ -8,8 +8,10 @@ require_once '_session.php';
         <li><a href="index.php">Home</a>
 
         <li><a href="about.php">About</a>
+        
 
         <?php if ($loggedIn): ?>
+            <li><a href="cart.php">🛒</a>
             <li><a href="logout-user.php">Logout</a>
         <?php else: ?>
             <li><a href="form-login.php">Login</a>
