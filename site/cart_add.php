@@ -1,22 +1,18 @@
 <?php
+require_once '_session.php';
+require_once 'lib/debug.php';
+require_once 'lib/db.php';
 
+// Get the data values from the form
 $productID = $_POST['id'];
-$productName = $_POST['name'];  
-// Get the form data from the POST array
-$sql = "SELECT id, name 
-                FROM products ";
+$productName = $_POST['name'];
+
+// Connect
+$db = connectToDB();
+// Add the user account
+$query = 'INSERT INTO orders (id, name) VALUES (?, ?)';
+$stmt = $db->prepare($query);
+$stmt->execute([$productID, $productName])
 
 
-
-$standardSql = getRecords($sql);
-
-// echo '<p>'.$standards.'</p>';
-
-echo '<h2>Adding assignment...</h2>';
-
-$sql = 'INSERT INTO assignments (id, name) VALUES (?, ?)';
-
-modifyRecords($sql, 'issi', [$standard, $assignmentTitle, $date, $subjectID]);
-
-header('location: cart.php?id=' . $user_id);
 ?>

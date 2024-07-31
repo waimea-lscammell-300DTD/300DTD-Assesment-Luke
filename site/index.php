@@ -36,8 +36,12 @@
 
         echo '<img src="image.php?id=' . $product['id'] . '">';
         echo '<h3>' . ' $' . $product['price'] . ' Each' . '</h3>';
-        echo '<a href="cart_add.php">Add to cart</a>';
+        echo '<form hx-post="cart_add.php">
+        <input type="hidden" name="id" value" " required>
+        <input name="name" type="hidden" required>
+        <input type="submit" value="Add to Cart">
 
+    </form>';
         echo '</article>';
     } 
 
