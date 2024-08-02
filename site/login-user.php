@@ -24,6 +24,9 @@ if ($userData){
  // Yes, we have a account, so check password
 if(password_verify($pass,$userData['hash'])){
     // We got here, so user and password both ok
+    unset($_SESSION['user']);
+    unset($_SESSION['order']);
+
     $_SESSION['user']['loggedIn'] = true;
     // Save user info for later use
     $_SESSION['user']['forename'] = $userData['forename'];

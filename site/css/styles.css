@@ -42,6 +42,15 @@ h3 {
     text-align: center;
 }
 
+#cart-count {
+    background-color: red;
+    color: #fff;
+    display: inline-block;
+    width: 1.5em;
+    border-radius: 1em;
+    text-align: center;
+    font-size: 0.7em;
+}
 
 /* FOOTER ---------------------------------------- */
 

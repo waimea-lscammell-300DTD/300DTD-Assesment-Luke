@@ -36,12 +36,13 @@
 
         echo '<img src="image.php?id=' . $product['id'] . '">';
         echo '<h3>' . ' $' . $product['price'] . ' Each' . '</h3>';
-        echo '<form hx-post="cart_add.php">
-        <input type="hidden" name="id" value" " required>
-        <input name="name" type="hidden" required>
-        <input type="submit" value="Add to Cart">
 
-    </form>';
+        if ($loggedIn) {
+            echo '<form action="cart-add.php" method="post">
+                    <input type="hidden" name="id" value="' . $product['id'] . '">
+                    <input type="submit" value="Add to Cart">
+                </form>';
+        }
         echo '</article>';
     } 
 

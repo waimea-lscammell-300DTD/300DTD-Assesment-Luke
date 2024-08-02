@@ -11,7 +11,16 @@ require_once '_session.php';
         
 
         <?php if ($loggedIn): ?>
-            <li><a href="cart.php">🛒</a>
+            <li><a href="cart.php">
+                🛒 
+            
+                <?php
+                    if (isset($_SESSION['order'])) {
+                        echo '<span id="cart-count">' . count($_SESSION['order']) . '</span>';
+                    }
+                ?>
+                
+            </a>
             <li><a href="logout-user.php">Logout</a>
         <?php else: ?>
             <li><a href="form-login.php">Login</a>
