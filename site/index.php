@@ -44,7 +44,7 @@
                 </form>';
         }
         echo '</article>';
-    } 
+    }
 
     echo '</section>';
     ?>

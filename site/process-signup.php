@@ -18,11 +18,8 @@ $db = connectToDB();
 // Add the user account
 $query = 'INSERT INTO users (forename, surname, username, hash) VALUES (?, ?, ?, ?)';
 $stmt = $db->prepare($query);
-$stmt->execute([$fore, $sur, $user, $hash])
+$stmt->execute([$fore, $sur, $user, $hash]);
 
 echo '<h2>Account created!</h2>';
 
 ?>
-
-
-

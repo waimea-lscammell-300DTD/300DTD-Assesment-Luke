@@ -1,4 +1,4 @@
-<?php 
+<?php
 require_once '_session.php';
 require_once 'lib/debug.php';
 require_once 'lib/db.php';
@@ -8,52 +8,50 @@ require_once 'lib/db.php';
 
 <?php require 'partials/top.php'; ?>
 
-    <?php require 'partials/header.php'; ?>
+<?php require 'partials/header.php'; ?>
 
-    <main>
+<main>
 
-        <section>
+    <section>
 
-            <article>
+        <article>
 
             <h2>CART</h2>
 
-<?php
+            <?php
 
-$db = connectToDB();   
-$query = 'Select * FROM products WHERE id=?';
-
-
-echo '<ul>';
-foreach($_SESSION['order'] as $productID) {
-    // echo '<li>' . $productID . '</li>';
-
-    try {
-        $stmt = $db->prepare($query);
-        $stmt->execute([$productID]);
-        $product = $stmt->fetch();
-    }
-    catch (PDOException $e) {
-        consoleLog($e->getMessage(), 'DB Connect', ERROR);
-        die('There was an error when connecting to the database');
-    }
-    consoleLog($product);
-
-    echo '<li>' . $product['name'];
-    
-}
-echo '</ul>';
-
-?>
-
-            </article>
+            $db = connectToDB();
+            $query = 'Select * FROM products WHERE id=?';
 
 
-        </section>
-    
-    </main>
+            echo '<ul>';
+            foreach ($_SESSION['order'] as $productID) {
+                // echo '<li>' . $productID . '</li>';
+            
+                try {
+                    $stmt = $db->prepare($query);
+                    $stmt->execute([$productID]);
+                    $product = $stmt->fetch();
+                } catch (PDOException $e) {
+                    consoleLog($e->getMessage(), 'DB Connect', ERROR);
+                    die('There was an error when connecting to the database');
+                }
+                consoleLog($product);
 
-    <?php require 'partials/footer.php'; ?>
+                echo '<li>' . $product['name'];
+
+            }
+            echo '</ul>';
+
+            ?>
+
+        </article>
+
+
+    </section>
+
+</main>
+
+<?php require 'partials/footer.php'; ?>
 
 <?php require 'partials/bottom.php'; ?>
-
