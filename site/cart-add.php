@@ -8,6 +8,7 @@ $productID = $_POST['id'];
 
 $_SESSION['order'][] = $productID;
 
+
 consoleLog($_SESSION);
 
 header('location: index.php');

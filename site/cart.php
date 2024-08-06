@@ -39,10 +39,18 @@ require_once 'lib/db.php';
                 consoleLog($product);
 
                 echo '<li>' . $product['name'];
+                echo '<img src="image.php?id=' . $product['id'] . '">';
 
             }
             echo '</ul>';
-
+        
+            echo '<label> Address </label>';
+  
+            echo '<form action="place-order.php" method="post">
+            
+            <textarea name="address" required></textarea>
+            <input type="submit" value="Place order">
+        </form>';
             ?>
 
         </article>
