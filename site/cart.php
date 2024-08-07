@@ -17,9 +17,11 @@ require_once 'lib/db.php';
         <article>
 
             <h2>CART</h2>
+            
 
             <?php
 
+if(isset($_SESSION['order'])){
             $db = connectToDB();
             $query = 'Select * FROM products WHERE id=?';
 
@@ -40,17 +42,21 @@ require_once 'lib/db.php';
 
                 echo '<li>' . $product['name'];
                 echo '<img src="image.php?id=' . $product['id'] . '">';
-
             }
             echo '</ul>';
         
-            echo '<label> Address </label>';
+            
   
             echo '<form action="place-order.php" method="post">
-            
+            <label> Address </label>
             <textarea name="address" required></textarea>
             <input type="submit" value="Place order">
         </form>';
+
+}
+else{
+    echo '<h2> Cart empty </h2>';
+}
             ?>
 
         </article>
