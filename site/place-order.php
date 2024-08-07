@@ -17,6 +17,6 @@ $db = connectToDB();
 $query = 'INSERT INTO orders (user_id, address) VALUES (?, ?)';
 $stmt = $db->prepare($query);
 $stmt->execute([$userID, $address]);
-// header('HX-Redirect: index.php');
+header('HX-Redirect: index.php');
 
 ?>
