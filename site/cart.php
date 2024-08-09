@@ -39,9 +39,9 @@ if(isset($_SESSION['order'])){
                     die('There was an error when connecting to the database');
                 }
                 consoleLog($product);
-
-                echo '<li>' . $product['name'];
+                echo '<h3>' . $product['name'] . '</h3>';
                 echo '<img src="image.php?id=' . $product['id'] . '">';
+
             }
             echo '</ul>';
         

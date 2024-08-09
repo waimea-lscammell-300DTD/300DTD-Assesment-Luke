@@ -8,7 +8,7 @@
 <main>
 
     <h1>Jess's Crochet</h1>
-    <img src="images/stand.jpg">
+    <img class="stand" src="images/stand.jpg">
 
     <?php
 

@@ -92,15 +92,26 @@ main {
 
 section {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    margin-right: 5rem;
+    margin-left: 5rem;
+    gap:1.25rem;
+    
 }
 
 article {
     border: 1px solid var(--border-color);
-    max-width: 20rem;
+    max-width: 15rem;
+   
 }
 button {
     display:flex;
     justify-content: center;
 }
+img.stand{
+    display:flex;
+    width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
