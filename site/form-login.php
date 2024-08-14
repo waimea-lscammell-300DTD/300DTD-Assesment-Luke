@@ -1,34 +1,31 @@
-
 <?php require_once '_config.php'; ?>
 
 <?php require 'partials/top.php'; ?>
 
-    <?php require 'partials/header.php'; ?>
+<?php require 'partials/header.php'; ?>
 
-    <main>
+<main>
 
-        <article>
-            
-            <h2>Login</h2>
+    <article class="login">
 
-            <p>User: <strong>jimmy</strong>,  Pass: <strong>jimmy</strong></p>
+        <h2>Login</h2>
 
-            <form hx-post="login-user.php">
+        <form hx-post="login-user.php">
 
-                <label>Username</label>
-                <input name="username" type="text" required>
+            <label>Username</label>
+            <input name="username" type="text" required>
 
-                <label>Password</label>
-                <input name="password" type="password" required>
+            <label>Password</label>
+            <input name="password" type="password" required>
 
-                <input type="submit" value="Login">
+            <input type="submit" value="Login">
 
-            </form>
+        </form>
 
-        </article>
+    </article>
 
-    </main>
+</main>
 
-    <?php require 'partials/footer.php'; ?>
+<?php require 'partials/footer.php'; ?>
 
 <?php require 'partials/bottom.php'; ?>

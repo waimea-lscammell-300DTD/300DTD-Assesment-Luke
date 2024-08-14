@@ -10,62 +10,48 @@ require_once 'lib/db.php';
 
 <?php require 'partials/header.php'; ?>
 
-<main>
-
-    <section>
-
-        <article>
-
-            <h2>CART</h2>
-            
-
-            <?php
-
-if(isset($_SESSION['order'])){
-            $db = connectToDB();
-            $query = 'Select * FROM products WHERE id=?';
+<main class="cart">
 
 
-            echo '<ul>';
-            foreach ($_SESSION['order'] as $productID) {
-                // echo '<li>' . $productID . '</li>';
-            
-                try {
-                    $stmt = $db->prepare($query);
-                    $stmt->execute([$productID]);
-                    $product = $stmt->fetch();
-                } catch (PDOException $e) {
-                    consoleLog($e->getMessage(), 'DB Connect', ERROR);
-                    die('There was an error when connecting to the database');
-                }
-                consoleLog($product);
-                echo '<h3>' . $product['name'] . '</h3>';
-                echo '<img src="image.php?id=' . $product['id'] . '">';
+    <h2 class="cart">CART</h2>
 
+
+    <?php
+    echo '<section class="cart">';
+    if (isset($_SESSION['order'])) {
+        $db = connectToDB();
+        $query = 'Select * FROM products WHERE id=?';
+
+        foreach ($_SESSION['order'] as $productID) {
+            // echo '<li>' . $productID . '</li>';
+    
+            try {
+                $stmt = $db->prepare($query);
+                $stmt->execute([$productID]);
+                $product = $stmt->fetch();
+            } catch (PDOException $e) {
+                consoleLog($e->getMessage(), 'DB Connect', ERROR);
+                die('There was an error when connecting to the database');
             }
-            echo '</ul>';
-        
-            
-  
-            echo '<form action="place-order.php" method="post">
-            <label> Address </label>
+            consoleLog($product);
+            echo '<article class"cart">';
+            echo '<h3>' . $product['name'] . '</h3>';
+
+            echo '<img src="image.php?id=' . $product['id'] . '">';
+            echo '</article>';
+        }
+        echo '</section>';
+
+
+        echo '<form class="cart" action="place-order.php" method="post">
+            <label><b class="cart"> Address </b></label>
             <textarea name="address" required></textarea>
             <input type="submit" value="Place order">
         </form>';
 
-}
-else{
-    echo '<h2> Cart empty </h2>';
-}
-            ?>
-
-        </article>
+    } else {
+        echo '<h2> Cart empty </h2>';
+    }
 
 
-    </section>
-
-</main>
-
-<?php require 'partials/footer.php'; ?>
-
-<?php require 'partials/bottom.php'; ?>
+    ?>

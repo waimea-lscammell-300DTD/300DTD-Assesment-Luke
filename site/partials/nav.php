@@ -8,24 +8,24 @@ require_once '_session.php';
         <li><a href="index.php">Home</a>
 
         <li><a href="about.php">About</a>
-        
 
-        <?php if ($loggedIn): ?>
+
+            <?php if ($loggedIn): ?>
             <li><a href="cart.php">
-                🛒 
-            
-                <?php
+                    🛒
+
+                    <?php
                     if (isset($_SESSION['order'])) {
                         echo '<span id="cart-count">' . count($_SESSION['order']) . '</span>';
                     }
-                ?>
-                
-            </a>
+                    ?>
+
+                </a>
             <li><a href="logout-user.php">Logout</a>
-        <?php else: ?>
+            <?php else: ?>
             <li><a href="form-login.php">Login</a>
             <li><a href="form-signup.php">Sign Up</a>
-        <?php endif ?>
+            <?php endif ?>
 
     </menu>
 

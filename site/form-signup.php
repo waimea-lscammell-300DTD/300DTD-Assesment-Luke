@@ -1,20 +1,16 @@
-
-
 <?php require_once '_config.php'; ?>
 
 <?php require 'partials/top.php'; ?>
 
-    <?php require 'partials/header.php'; ?>
+<?php require 'partials/header.php'; ?>
 
-    <main>
+<main>
 
-        <article>
-            
-            <h2>Signup</h2>
+    <article class="login">
 
-            <p>User: <strong>jimmy</strong>,  Pass: <strong>jimmy</strong></p>
+        <h2>Signup</h2>
 
-            <form method="POST" action="process-signup.php">
+        <form method="POST" action="process-signup.php">
 
             <label>Forename</label>
             <input name="forename" type="text" required>
@@ -30,12 +26,12 @@
 
             <input type="submit" value="Sign Up">
 
-            </form>
+        </form>
 
-        </article>
+    </article>
 
-    </main>
+</main>
 
-    <?php require 'partials/footer.php'; ?>
+<?php require 'partials/footer.php'; ?>
 
 <?php require 'partials/bottom.php'; ?>
