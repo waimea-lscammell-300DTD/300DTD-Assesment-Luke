@@ -93,7 +93,18 @@ After you click Login the Nav will turn into the screenshot below
 
 ## Sign Up
 ![Alt text](<images/Screenshot 2024-07-25 101436.png>)
+
 When you fill in the Sign up boxes it will bring you to a page which confirms if the account was created or not and will send the data to the database
+
 ![Alt text](<images/Screenshot 2024-07-25 101723.png>)
 
-### 11/07/2024
+### 12/08/2024
+using the colours and layout from the mock up design and styling the website.
+
+![alt text](<images/Screenshot 2024-08-14 214801.png>) ![alt text](<images/Screenshot 2024-08-14 214810.png>) ![alt text](<images/Screenshot 2024-08-14 214713.png>) ![alt text](<images/Screenshot 2024-08-14 214741.png>)
+
+i used the colors that my end user provided and used the layout to base my website off of and styled it using css.
+
+### 15/08/2024
+
+Show the website with colours and functionality and change the website if i get any feedback.
