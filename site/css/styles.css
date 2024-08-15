@@ -114,7 +114,7 @@ section {
 }
 
 article {
-    border: 35px solid #c0ec78;
+    border: 1px solid #c0ec78;
     max-width: 20rem;
     background-color: #c0ec78;
 
@@ -127,6 +127,7 @@ button {
 
 img.stand {
     margin-bottom: 1rem;
+    border-radius: 0.5rem;
 }
 
 
@@ -186,4 +187,17 @@ article.login {
     margin-right: auto;
     border: 35px solid #c0ec78;
     max-width: 50rem;
+}
+
+h2.cart-empty {
+    background-color: #c0ec78;
+    padding: 1rem;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.5rem;
+}
+
+img {
+    border-radius: 0.5rem;
 }

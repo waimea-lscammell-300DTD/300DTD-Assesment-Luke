@@ -8,6 +8,7 @@ require_once '_session.php';
         <li><a href="index.php">Home</a>
 
         <li><a href="about.php">About</a>
+        <li><a href="form-add-product.php">Add product</a>
 
 
             <?php if ($loggedIn): ?>

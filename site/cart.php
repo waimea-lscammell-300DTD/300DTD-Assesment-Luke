@@ -50,7 +50,7 @@ require_once 'lib/db.php';
         </form>';
 
     } else {
-        echo '<h2> Cart empty </h2>';
+        echo '<h2 class="cart-empty"> Cart empty </h2>';
     }
 
 
