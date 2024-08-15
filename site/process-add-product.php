@@ -7,17 +7,18 @@ require_once 'lib/db.php';
 
 // Get image data and type of uploaded file
 [
-    'data' => $imageData,
+    'image_data' => $imageData,
     'type' => $imageType
 ] = uploadedImageData($_FILES['image_data']);
 
 // Get other data from form
 $name = $_POST['name'];
+$price = $_POST['price'];
 
 // Insert the image into the database
 $db = connectToDB();
 
-$query = 'INSERT INTO products (name, price, image_data, image_type) VALUES (?, ?, ?)';
+$query = 'INSERT INTO products (name, price, image_data, image_type) VALUES (?, ?, ?, ?)';
 
 try {
     $stmt = $db->prepare($query);

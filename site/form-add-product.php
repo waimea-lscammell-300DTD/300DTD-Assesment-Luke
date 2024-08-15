@@ -15,6 +15,8 @@
             <label>Product Name</label>
             <input type="text" name="name" required>
 
+            <label>Price</label>
+            <input type="text" name="price" required>
 
             <label>Image File</label>
             <input type="file" name="image" accept="image/*" required>

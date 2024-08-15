@@ -12,6 +12,10 @@ require_once '_session.php';
 
 
             <?php if ($loggedIn): ?>
+                <?php if ($isAdmin): ?>
+                <li><a href="view-orders.php">View Orders</a>
+                <?php endif ?>
+
             <li><a href="cart.php">
                     🛒
 
