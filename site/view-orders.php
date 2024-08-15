@@ -48,10 +48,10 @@
 
         echo '<img src="image.php?id=' . $order['pid'] . '">';
 
-        echo '<h2>' . ' x ' . $order['quantity'] . '</h3>';
-        echo '<h3>' . $order['date'] . '</h3>';
-        echo '<h3>' . $order['forename'] . ' ' . $order['surname'] . '</h3>';
-        echo '<h3>' . $order['address'] . '</h3>';
+        echo '<p>' . ' x ' . $order['quantity'] . '</p>';
+        echo '<p>' . $order['date'] . '</p>';
+        echo '<p>' . $order['forename'] . ' ' . $order['surname'] . '</p>';
+        echo '<o>' . $order['address'] . '</p>';
 
         echo '</article>';
     }
