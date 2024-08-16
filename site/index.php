@@ -10,6 +10,10 @@
     <h1>Jess's Crochet</h1>
     <img class="stand" src="images/stand.jpg">
 
+    <?php if ($loggedIn == false) {
+        echo '<h1>Login or make an account to add things to cart</h1>';
+    }
+    ?>
     <?php
 
     $db = connectToDB();
@@ -48,7 +52,6 @@
 
     echo '</section>';
     ?>
-
 </main>
 
 <?php require 'partials/footer.php'; ?>

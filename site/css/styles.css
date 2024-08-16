@@ -114,9 +114,9 @@ section {
 }
 
 article {
-    border: 1px solid #c0ec78;
+    border: 1px solid #FCA3AD;
     max-width: 20rem;
-    background-color: #c0ec78;
+    background-color: #FCA3AD;
 
 }
 
@@ -132,9 +132,9 @@ img.stand {
 
 
 article.cart {
-    border: 35px solid #c0ec78;
+    border: 35px solid #FCA3AD;
     max-width: 20rem;
-    background-color: #c0ec78;
+    background-color: #FCA3AD;
 
 }
 
