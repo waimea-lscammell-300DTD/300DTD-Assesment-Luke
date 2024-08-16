@@ -86,7 +86,7 @@ h3 {
 
 #main-nav a {
     color: white;
-    background-color: grey;
+    background-color: #FCA3AD;
     border-radius: 0.5rem;
     margin-right: auto;
 }
@@ -199,5 +199,13 @@ h2.cart-empty {
 }
 
 img {
+    border-radius: 0.5rem;
+}
+
+article.about {
+    background-color: #c0ec78;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 0.5rem;
 }

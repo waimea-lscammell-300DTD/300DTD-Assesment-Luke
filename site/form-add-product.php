@@ -8,15 +8,18 @@
 
     <article class="login">
 
-        <form hx-post="process-add-product.php">
+        <form hx-post="process-add-product.php" enctype="multipart/form-data">
 
             <h2>Add a New Product</h2>
 
             <label>Product Name</label>
             <input type="text" name="name" required>
 
+            <label>Category</label>
+            <input type="text" name="category" required>
+
             <label>Price</label>
-            <input type="text" name="price" required>
+            <input type="number" name="price" min="1" max="99" required>
 
             <label>Image File</label>
             <input type="file" name="image" accept="image/*" required>

@@ -7,8 +7,13 @@
     <?php
 
     if ($loggedIn) {
-        echo '<b class"cart"><p id="username">Welcome, ' . $_SESSION['user']['forename'] . ' ' . $_SESSION['user']['surname'] . '</b></p>';
+        if ($isAdmin) {
+            echo '<b class"cart"><p id="username">Welcome, ' . $_SESSION['user']['forename'] . ' ' . $_SESSION['user']['surname'] . ' (Admin)</b></p>';
+        } else {
+            echo '<b class"cart"><p id="username">Welcome, ' . $_SESSION['user']['forename'] . ' ' . $_SESSION['user']['surname'] . '</b></p>';
+        }
     }
+
 
     ?>
 

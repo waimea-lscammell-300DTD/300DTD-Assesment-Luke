@@ -13,16 +13,17 @@ require_once 'lib/db.php';
 
 // Get other data from form
 $name = $_POST['name'];
+$cat = $_POST['category'];
 $price = $_POST['price'];
 
 // Insert the image into the database
 $db = connectToDB();
 
-$query = 'INSERT INTO products (name, price, image_type, image_data ) VALUES (?, ?, ?, ?)';
+$query = 'INSERT INTO products (name, price, category, image_type, image_data ) VALUES (?, ?, ?, ?, ?)';
 
 try {
     $stmt = $db->prepare($query);
-    $stmt->execute([$name, $price, $imageType, $imageData]);
+    $stmt->execute([$name, $price, $cat, $imageType, $imageData]);
 
 } catch (PDOException $e) {
     consoleLog($e->getMessage(), 'DB Upload Picture', 'ERROR');

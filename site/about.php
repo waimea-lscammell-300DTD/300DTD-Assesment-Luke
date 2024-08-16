@@ -1,32 +1,27 @@
-
 <?php require_once '_config.php'; ?>
 
 <?php require 'partials/top.php'; ?>
 
-    <?php require 'partials/header.php'; ?>
+<?php require 'partials/header.php'; ?>
 
-    <main>
+<main class="cart">
 
-        <section>
+    <section>
 
-            <article>
+        <article class="about">
 
-                <h1><?= SITE_NAME ?></h1>
+            <h1><?= SITE_NAME ?></h1>
 
-                <p>Stuff about Jess's business  <p>
+            <img src=" images/Jess.jpg">
 
-            </article>
-            
-            <article>
+            <p>Jess makes her crochet at home and sells them at local markets</p>
 
-                <p>Text about jess
+        </article>
 
-            </article>
+    </section>
 
-        </section>
-    
-    </main>
+</main>
 
-    <?php require 'partials/footer.php'; ?>
+<?php require 'partials/footer.php'; ?>
 
 <?php require 'partials/bottom.php'; ?>
