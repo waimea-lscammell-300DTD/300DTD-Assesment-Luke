@@ -11,7 +11,7 @@
     <img class="stand" src="images/stand.jpg">
 
     <?php if ($loggedIn == false) {
-        echo '<h1>Login or make an account to add things to cart</h1>';
+        echo '<h1 class="login">Login or make an account to add things to cart</h1>';
     }
     ?>
     <?php
