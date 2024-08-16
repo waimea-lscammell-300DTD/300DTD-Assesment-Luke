@@ -48,7 +48,7 @@
 
         echo '<img src="image.php?id=' . $order['pid'] . '">';
 
-        echo '<p>' . ' x ' . $order['quantity'] . '</p>';
+        echo '<h3>' . ' x ' . $order['quantity'] . '</h3>';
         echo '<p>' . $order['date'] . '</p>';
         echo '<p>' . $order['forename'] . ' ' . $order['surname'] . '</p>';
         echo '<o>' . $order['address'] . '</p>';

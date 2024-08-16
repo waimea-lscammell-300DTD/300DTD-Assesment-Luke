@@ -22,4 +22,3 @@ $stmt->execute([$fore, $sur, $user, $hash]);
 
 echo '<h2>Account created!</h2>';
 
-?>
