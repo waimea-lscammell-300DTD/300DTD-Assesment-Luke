@@ -107,4 +107,10 @@ i used the colors that my end user provided and used the layout to base my websi
 
 ### 15/08/2024
 
-Show the website with colours and functionality and change the website if i get any feedback.
+Show the website to my end user with colours and functionality and change the website if i get any feedback.
+
+![alt text](images/1000020669.jpg)
+![alt text](images/1000020668.jpg)
+![alt text](images/1000020667.jpg)
+![alt text](images/1000020666.jpg)
+here are some screenshots of the conversation between me and my end user and her giving me changes to the website that I will change
