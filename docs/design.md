@@ -142,7 +142,7 @@ Replace this text with a brief evaluation of how well you met the needs of your 
 
 ### Meeting the System Requirements
 
-I think I met the requirements pretty effectivly 
+I think I met the requirements pretty effectivly I tried my best to implement the features that I planned on using in my website. The features I think I implimented well is the cart system which is the main part of my website. I made it easy for users to add thier products and then put in a order for Jess to make the products. Some other features I think I did well was the adding product system and the order page for the admin
 
 Replace this text with a brief evaluation of how well you met the requirements that you defined at the start of the project, etc. Look back at the list of features / functionality you initially set and discuss how well your system has implemented each one.
 
