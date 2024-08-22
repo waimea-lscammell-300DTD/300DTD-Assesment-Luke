@@ -113,4 +113,17 @@ Show the website to my end user with colours and functionality and change the we
 ![alt text](images/1000020668.jpg)
 ![alt text](images/1000020667.jpg)
 ![alt text](images/1000020666.jpg)
+
 here are some screenshots of the conversation between me and my end user and her giving me changes to the website that I will change
+
+### 18/08/2024
+Putting the changes i got from my end user to my website.
+
+![alt text](<images/Screenshot 2024-08-22 144311.png>)
+![alt text](<images/Screenshot 2024-08-22 173428.png>)
+
+After the feedback from my end user i chose to change the product colors from a pastel green to a pastel pink
+
+![alt text](<images/Screenshot 2024-08-22 181213.png>)
+
+In my previous versions the users didnt have a way of buying items and putting it in the cart untill they logged in, and I didnt have anything that indicates to them that they need to login before they can put a product in a cart. So my end user suggested putting some text saying "Login or make an account to add things to cart" which tells the users that they need to login before they can buy stuff.

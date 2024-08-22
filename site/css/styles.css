@@ -187,6 +187,7 @@ article.login {
     margin-right: auto;
     border: 35px solid #c0ec78;
     max-width: 50rem;
+    background-color: #c0ec78;
 }
 
 h2.cart-empty {

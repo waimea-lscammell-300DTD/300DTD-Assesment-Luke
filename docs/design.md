@@ -121,8 +121,10 @@ Asking my end users how different colors feel with the product and if it works w
 
 
 ### Database Structure
+![alt text](<images/Screenshot 2024-08-22 201246.png>) ![alt text](<images/Screenshot 2024-08-22 201259.png>) ![alt text](<images/Screenshot 2024-08-22 201310.png>) ![alt text](<images/Screenshot 2024-08-22 201323.png>) ![alt text](<images/Screenshot 2024-08-22 201335.png>) 
+![alt text](<images/Screenshot 2024-08-22 201345.png>) ![alt text](<images/Screenshot 2024-08-22 201357.png>) 
+![alt text](<images/Screenshot 2024-08-22 201417.png>) 
 
-Place a image here that shows the *actual database structure* that you implemented: tables, fields and relationships.
 
 ### User Interface Design
 
@@ -134,10 +136,13 @@ Place screenshots and notes here that show your *actual system UI* in action.
 ## Review and Evaluation
 
 ### Meeting the Needs of the Users
+Every piece of feedback I got from my end users I made sure to impliment thier ideas to the best of my ability and also make the website function the way I invisioned. I made sure to add admin capabilities so that (Jess) my end user can add her new products and can also see the orders that have been placed, with the date and time and also the address and username of the person who brought the product.
 
 Replace this text with a brief evaluation of how well you met the needs of your users. Look at what you initially wrote about who they are, what specific needs they have, etc. and discuss how well the system meets those needs.
 
 ### Meeting the System Requirements
+
+I think I met the requirements pretty effectivly 
 
 Replace this text with a brief evaluation of how well you met the requirements that you defined at the start of the project, etc. Look back at the list of features / functionality you initially set and discuss how well your system has implemented each one.
 
