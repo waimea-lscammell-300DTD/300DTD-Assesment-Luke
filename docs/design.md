@@ -142,31 +142,35 @@ Replace this text with a brief evaluation of how well you met the needs of your 
 
 ### Meeting the System Requirements
 
-I think I met the requirements pretty effectivly I tried my best to implement the features that I planned on using in my website. The features I think I implimented well is the cart system which is the main part of my website. I made it easy for users to add thier products and then put in a order for Jess to make the products. Some other features I think I did well was the adding product system and the order page for the admin
+I think I met the requirements pretty effectivly I tried my best to implement the features that I planned on using in my website. The features I think I implimented well is the cart system which is the main part of my website. I made it easy for users to add thier products and then put in a order for Jess to make the products. Some other features I think I did well was the adding product system and the order page for the admin. The login feature works like I wanted it and has no bugs which im happy with. There wre some features that I couldnt impliment becuase I didnt have time.
 
 Replace this text with a brief evaluation of how well you met the requirements that you defined at the start of the project, etc. Look back at the list of features / functionality you initially set and discuss how well your system has implemented each one.
 
-### Review of IMPLICATION NAME HERE
+### Review of Functionality
 
 Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
-### Review of IMPLICATION NAME HERE
+### Review of End-User
 
 Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
-### Review of IMPLICATION NAME HERE
+### Review of Future Proofing
+
 
 Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
-### Review of UX PRINCIPLE NAME HERE
+### Review of Usability
+
+Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+### Review of Give the user control 
 
 Replace this text with brief notes showing how the UX principle was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
-### Review of UX PRINCIPLE NAME HERE
+### Review of Consistency 
 
 Replace this text with brief notes showing how the UX principle was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
-### Review of UX PRINCIPLE NAME HERE
+### Review of Use visual Hierarchy
 
 Replace this text with brief notes showing how the UX principle was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
