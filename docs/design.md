@@ -148,6 +148,12 @@ Replace this text with a brief evaluation of how well you met the requirements t
 
 ### Review of Functionality
 
+![alt text](<images/Screenshot 2024-08-24 172454.png>)
+![alt text](<images/Screenshot 2024-08-24 180302.png>)
+![alt text](<images/Screenshot 2024-08-24 180959.png>)
+
+all of the buttons I have tested and they work how they are supposed to. The nav buttons bring the user to the right page. The add to cart button adds the products to the cart and the adding new product form adds a all the inputs to the database and shows up on the website. 
+
 Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
 ### Review of End-User
