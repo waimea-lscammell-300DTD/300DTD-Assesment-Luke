@@ -139,8 +139,6 @@ Place screenshots and notes here that show your *actual system UI* in action.
 ### Meeting the Needs of the Users
 Every piece of feedback I got from my end users I made sure to impliment thier ideas to the best of my ability and also make the website function the way I invisioned. I made sure to add admin capabilities so that (Jess) my end user can add her new products and can also see the orders that have been placed, with the date and time and also the address and username of the person who brought the product. 
 
-Replace this text with a brief evaluation of how well you met the needs of your users. Look at what you initially wrote about who they are, what specific needs they have, etc. and discuss how well the system meets those needs.
-
 ### Meeting the System Requirements
 
 I think I met the requirements pretty effectivly I tried my best to implement the features that I planned on using in my website. The features I think I implimented well is the cart system which is the main part of my website. I made it easy for users to add thier products and then put in a order for Jess to make the products. Some other features I think I did well was the adding product system and the order page for the admin. The login feature works like I wanted it and has no bugs which im happy with. There wre some features that I couldnt impliment becuase I didnt have time.
@@ -163,25 +161,18 @@ Throughout the website making process I was checking with my End user(Jess) and 
 
 To allow the website to have future proofing I allowed the admin to be able to add new products to the database and it will show up in the products part on the home page
 
-Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
-
 ### Review of Usability
 ![alt text](<images/Screenshot 2024-08-25 145737.png>)
 I feel the final website is usable and fits its purpose as a shopping website for Jess's Crochet products and has a working cart and order system and makes it easier for Jess to grow her buisness and reach out to her customers.
 
-Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 ### Review of Give the user control 
 I think I could have done a better job with this if I had more time. But the features like being able to delete products and let the user descide on what they want to do with the products, I couldnt implement in time. If I were to do this again I would implement those things. 
-
-Replace this text with brief notes showing how the UX principle was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
 ### Review of Consistency 
 ![alt text](<images/Screenshot 2024-08-25 133514.png>) 
 ![alt text](<images/Screenshot 2024-08-25 133804.png>)
 
 For alot of the forms and buttons I reuse colors and shapes so it keeps a conisitant look and makes the website look farmiliar and help the user understand and know what action they are doing. Like for example the login form and sign in form has a similar look to other websites and when a user uses it they will know how to use the form becuase of the similar buttons and boxes which will give the website a smooth flow.
-
-Replace this text with brief notes showing how the UX principle was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
 ### Review of Use visual Hierarchy
 
