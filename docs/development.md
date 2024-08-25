@@ -127,3 +127,7 @@ After the feedback from my end user i chose to change the product colors from a 
 ![alt text](<images/Screenshot 2024-08-22 181213.png>)
 
 In my previous versions the users didnt have a way of buying items and putting it in the cart untill they logged in, and I didnt have anything that indicates to them that they need to login before they can put a product in a cart. So my end user suggested putting some text saying "Login or make an account to add things to cart" which tells the users that they need to login before they can buy stuff.
+
+### 23/08/2024
+
+Finishing off the design file and commenting on the files to explain what the code does.
