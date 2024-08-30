@@ -131,6 +131,13 @@ In my final design I tried using all of the colors that my end user wanted and p
 
 [Feature video](https://mywaimeaschool-my.sharepoint.com/:v:/g/personal/lscammell_waimea_school_nz/ETOFrtoijWRHjdt20D07djoBcO7omJE9kNZsTujxlLpPFQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=thmohp)
 
+I am demonstrating:
+ - Logging into a normal account 
+ - Logging into a admin account
+ - Adding a product to the database
+ - Adding products to order and pushing the order
+ - Seeing the orders that have been placed on the admin account
+
 
 -------------------------------------------------
 
