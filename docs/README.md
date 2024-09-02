@@ -16,4 +16,9 @@ It Is a database-driven web app that allows users to:
 The following documents support this project:
     - [Initial Design](design.md)
     - [Development & Feedback](development.md)
-    
+
+## Passwords
+ - Luke Scammell (Admin account) Username: lscammell Password: noice
+ - Jayden mace (Normal account) Username: jmace Password: noice
+
+
