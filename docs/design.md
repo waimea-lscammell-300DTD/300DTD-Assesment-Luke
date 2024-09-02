@@ -138,6 +138,9 @@ I am demonstrating:
  - Adding products to order and pushing the order
  - Seeing the orders that have been placed on the admin account
 
+ Luke Scammell (admin account) username: lscammell password: noice
+ Jayden mace (normal account) username: jmace password: noice
+
 
 -------------------------------------------------
 
